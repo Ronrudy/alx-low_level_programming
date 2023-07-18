@@ -2,10 +2,11 @@
 
 /**
  * jack_bauer - every minute of the day of jack bauer
- * Return:
+ * Return: ...
  */
 
 void jack_bauer(void)
+
 {
 	int a, b, c, d;
 
