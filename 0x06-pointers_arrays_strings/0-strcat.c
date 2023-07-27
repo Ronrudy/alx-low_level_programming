@@ -11,8 +11,8 @@ char *_strcat(char *dest, char *src)
 
 {
 	int lenght_of_string, i;
-	lenght_of_string = 0;
 
+	lenght_of_string = 0;
 	while (dest[lenght_of_string] != '\0')
 	{
 	lenght_of_string++;
