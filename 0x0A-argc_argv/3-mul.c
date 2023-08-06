@@ -48,7 +48,7 @@ int _atoi(char *s)
  * main - a program that multiplies two numbers.
  * @argc: number of arguments
  * @argv: array of arguments
- * Return: 0 for success 1 for error
+ * Return: 0 (success), 1 (error)
  */
 
 int main(int argc, char *argv[])
@@ -58,7 +58,7 @@ int main(int argc, char *argv[])
 
 	if (argc < 3 || argc > 3)
 	{
-		printf("Error");
+		printf("Error\n");
 		return (1);
 	}
 
